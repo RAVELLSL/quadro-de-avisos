@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadro de Avisos</title>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0 auto; /* Centralizando o corpo da página */
+            max-width: 800px; /* Limitando a largura total da página */
+            padding: 20px;
+            background-color: #f8f9fa;
+            color: #000; /* Ajustando a cor da fonte para preto */
+            font-size: 16px; /* Aumentando o tamanho da fonte */
+        }
+        h1 {
+            text-align: center;
+            color: #000000;
+            margin-bottom: 20px;
+            font-size: 40px; /* Aumentando o tamanho da fonte */
+        }
+        .post {
+            background-color: #fff;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            color: #000; /* Ajustando a cor da fonte para preto */
+            text-align: justify; /* Justificando o texto */
+        }
+        .post:hover {
+            transform: translateY(-5px);
+        }
+        .post h2 {
+            margin-top: 0;
+            color: #000000;
+            text-align: center;
+        }
+        .post .date {
+            color: #6c757d;
+            margin-bottom: 10px;
+            color: #000; /* Ajustando a cor da fonte para preto */
+        }
+
+        /* Estilos para dispositivos móveis */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 20px; /* Ajustando o tamanho da fonte para dispositivos móveis */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Quadro de Avisos</h1>
+        <div id="posts">
+            <!-- As postagens serão inseridas aqui dinamicamente -->
+            <div class="post">
+                <h2>Atualização do Site</h2>
+                <p class="date">22 de Maio, 2024</p><br>
+                <p>Novas áreas no site foram criadas e ajustes de melhoria foram realizados. Dentre as novidades destacam-se as seguintes:</p>
+                <ol>
+                    <li>Agora, após a autenticação, você terá acesso a uma série de novidades pensadas especialmente para enriquecer sua experiência de aprendizado.</li>
+                    <li>Entre as principais mudanças, destacamos a criação de novos espaços, como o "Caderno Virtual". Neste ambiente, você encontrará as fichas de estudo dos assuntos mais recentes, organizadas de forma prática e acessível para auxiliar seus estudos de maneira eficiente.</li>
+                    <li>Além disso, introduzimos o "Caderno de Exercícios", uma ferramenta projetada para testar suas habilidades tecnológicas. Aqui, você poderá praticar e aprimorar seus conhecimentos através de uma variedade de exercícios desafiadores.</li>
+                </ol>
+                <p>E não para por aí!<br><br> Como parte dessa atualização, realizamos a migração do material complementar e da biblioteca digital para uma navegação mais intuitiva e facilitada. Foram realizadas correções significativas na versão do site para dispositivos móveis corrigindo falhas e aprimorando a visualização dos textos. Agora, você terá à disposição uma vasta gama de recursos adicionais para complementar seus estudos e expandir seus horizontes tecnológicos.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
